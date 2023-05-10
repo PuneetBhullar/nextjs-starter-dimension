@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\usr\\local\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g'
+1 verbose cli ]
+2 info using npm@3.10.10
+3 info using node@v18.16.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData .
+8 silly fetchDirectoryPackageData .
+9 verbose stack TypeError: cb.apply is not a function
+9 verbose stack     at C:\usr\local\node_modules\npm\node_modules\graceful-fs\polyfills.js:267:18
+9 verbose stack     at FSReqCallback.oncomplete (node:fs:209:5)
+10 verbose cwd C:\Users\punee\Desktop\personalWebsite\nextjs-starter-dimension
+11 error Windows_NT 10.0.22621
+12 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\usr\\local\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g"
+13 error node v18.16.0
+14 error npm  v3.10.10
+15 error cb.apply is not a function
+16 error If you need help, you may report this error at:
+16 error     <https://github.com/npm/npm/issues>
+17 verbose exit [ 1, true ]
